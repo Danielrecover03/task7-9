@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DAY7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fa61d725ab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <img src="image/du.png" alt="logo-dumbways" class="nav-logo" />
+        <ul class="item-link">
+          <li class="colleps-item"><a href="#" class="active">HOME</a></li>
+          <li class="colleps-item"><a href="https://task-d5.vercel.app/" class="active">MY PROJECT</a></li>
+          <li class="colleps-item"><a href="#" class="active">TESTIMONIALS</a></li>
+
+        </ul>
+        <div class="my-contact colleps-item">
+          <a href="https://day3-contact.vercel.app/"><button type="button" class="btn-contact-nav">MY CONTACT</button></a>
+        </div>
+        <div class="my-contact" id="hamburger-btn">
+          <button onclick="openHamburger()">
+            <i class="fa-sharp fa-regular fa-book-journal-whills"></i>
+          </button>
+      </div>
+    </div>
+    <div class="hamburger-container" id="hamburger-container">
+      <a href="#" class="nav-active">HOME</a>
+      <a href="https://task-d5.vercel.app/" class="nav-active">MY PROJECT</a>
+      <a href="https://day3-contact.vercel.app/" class="nav-active">KONTAK</a>
+    </div>
+    </nav>
+    <div class="border">
+      <div class="space-right"> 
+        <h1>My Testimonials</h1>
+        <div class="testimonial" id="testimonial">
+         
+        </div>
+        
+    </div>
+      <script src="js/testimonial.js"></script>
+  </body>
+</html>
